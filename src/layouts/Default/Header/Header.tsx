@@ -3,7 +3,6 @@ import React, { FC } from "react";
 // import { ReactSVG } from 'react-svg';
 // import { useStaticQuery, graphql, Link, navigate } from "gatsby";
 
-import "./Template.sass";
 /**
  * 
  * @returns andreyOurCEO1366: imageSharp(
@@ -12,7 +11,7 @@ import "./Template.sass";
         gatsbyImageData(placeholder: DOMINANT_COLOR, quality: 100)
       }
  */
-const TemplateComponent: FC = () => {
+const Header: FC = () => {
   //   const {
   //     mainSlogan
   //   } = useStaticQuery(graphql`
@@ -31,4 +30,4 @@ const TemplateComponent: FC = () => {
   );
 };
 
-export { TemplateComponent };
+export { Header };
